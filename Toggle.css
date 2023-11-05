@@ -1,17 +1,20 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-   }
-   body{
-    background-color: blue; 
-   }
-   .mainsection{
+}
+
+body {
+    background-color: blue;
+}
+
+.mainsection {
     position: relative;
     min-height: 100vh;
-   }
-   .container{
+}
+
+.container {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -22,23 +25,27 @@
     border: 1px solid red;
     transition: all 0.5s;
 }
-.toggle{
+
+.toggle {
     margin-left: 1px;
     border-radius: 25px;
     height: 24px;
     width: 30px;
     background: rebeccapurple;
 }
-.toggle.active{
+
+.toggle.active {
     margin-left: 30px;
 }
-.toggleDiv{
+
+.toggleDiv {
     position: absolute;
     top: 60%;
     left: 53%;
     transform: translate(-60%, -53%);
     display: block;
 }
-.toggleDiv.active{
+
+.toggleDiv.active {
     display: none;
 }
